@@ -30,7 +30,7 @@ musicaFocoInput.addEventListener('change', () => {
 })
 
 focoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 600;
+    tempoDecorridoEmSegundos = 5;
     alterarContexto('foco');
     focoBt.classList.add('active');
 })
@@ -42,7 +42,7 @@ curtoBt.addEventListener('click', () => {
 })
 
 longoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 10;
+    tempoDecorridoEmSegundos = 100;
     alterarContexto('descanso-longo');
     longoBt.classList.add('active');
 })
